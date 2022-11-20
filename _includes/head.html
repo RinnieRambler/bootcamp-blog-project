@@ -1,0 +1,24 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    
+
+    <!-- Meta data for SEO purposes. -->
+    <title> {{page.seo.title}} </title>
+    <meta name="description" content="{{page.seo.meta-description}}">
+    <meta name="keywords" content="{{page.seo.meta-keywords}}">
+    
+    <!--  Social media sharing META Tags -->
+    <meta property="og:title" content="{{page.seo.title}}">
+    <meta property="og:description" content="{{page.seo.meta-description}}">
+    <meta property="og:image" content="{{page.seo.featured-image_path}}">
+    <meta property="og:url" content="{{page.url}}">
+    <meta name="twitter:card" content="{{page.seo.meta-description}}">
+    <meta name="og:site_name" content="{{site.data.settings.general.site-name}}">
+
+    {% if page.seo.hide-from-google == true %}
+    <meta name="robots" content="noindex">
+  {% endif %}
+</head>
