@@ -1,11 +1,20 @@
 page_blocks: []
 _array_structures:
   page_blocks:
-    -label: Banner
-     icon: article
-     value:
-      -id: banner
-      title: Banner
-      heading: This is a heading
-      heading: This is a heading
-      heading: This is a heading
+    - label: Banner
+      icon: article
+      value:
+       _id: banner
+       title: Banner
+       heading: This is a heading
+       heading: This is a heading
+       heading: This is a heading
+       image: https://source.unsplash.com//DuD5D3lWC3c
+     - label: text-columns
+      icon: article
+      value:
+       _id: text-columns
+       title: Text Columns
+       column1: This is a heading
+       column2: This is a heading
+       column3: This is a heading
