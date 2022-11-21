@@ -8,12 +8,18 @@ featured: true
 category: travel
 featured_image: https://source.unsplash.com//DuD5D3lWC3c
 page_blocks:
+  - _id: banner
+    title: Banner
+    heading1: This is a heading
+    heading2: This is a heading
+    heading3: This is a heading
+    image: https://source.unsplash.com//DuD5D3lWC3c
   - _id: text-columns
     title: text-colums
-    heading: 
-    column1:
-    column2:
-    column3:
+    heading: This is a heading
+    column1: This is a column of text
+    column2: This is a column of text
+    column3: This is a column of text
   - _id: gallery
     title: Gallery
     image1: 
@@ -25,7 +31,12 @@ page_blocks:
   - _id: text
     title: Text 
     heading: This is a heading
-    text: This is text   
+    text: This is text
+  - _id: video
+    title: Video
+    video: https://www.youtube.com/embed/fUn1w3Vfh6U
+    heading: This a a heading
+    text: this is text 
 seo:
   title: First post
   meta-description:
