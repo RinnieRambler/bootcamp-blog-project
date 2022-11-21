@@ -17,7 +17,7 @@ page_blocks:
   - _id: banner
     title: Banner
     heading1: This is a heading
-    heading2: jgfkdsjzgflajdfghlsdjhgfjlsdghdsljghdslghsd;
+    heading2: This is a heading
     heading3: This is a heading
     image: https://source.unsplash.com///DuD5D3lWC3c
   - _id: text-columns
