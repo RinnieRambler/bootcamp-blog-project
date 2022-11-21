@@ -42,7 +42,7 @@ _array_structures:
       value:
        _id: video
        title: Video
-       video: https://www.youtube.com/embed/fUn1w3Vfh6U
+       video_url: https://www.youtube.com/embed/fUn1w3Vfh6U
        heading: This a a heading
        text: this is text
        
