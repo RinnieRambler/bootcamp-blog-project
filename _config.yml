@@ -22,6 +22,7 @@ _array_structures:
       icon: article
       value:
        _id: gallery
+       title: Gallery
        gallery:
         - image_url: https://source.unsplash.com/8muZ_2cfX4A
         - image_url: https://source.unsplash.com/8muZ_2cfX4A
