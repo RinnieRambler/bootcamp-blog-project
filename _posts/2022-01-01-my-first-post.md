@@ -19,7 +19,7 @@ page_blocks:
     heading1: This is a heading
     heading2: This is a heading
     heading3: This is a heading
-    image: https://source.unsplash.com//DuD5D3lWC3c
+    image: https://source.unsplash.com///DuD5D3lWC3c
   - _id: text-columns
     title: text-colums
     heading: This is a heading
