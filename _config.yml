@@ -1,0 +1,11 @@
+page_blocks: []
+_array_structures:
+  page_blocks:
+    -label: Banner
+     icon: article
+     value:
+      -id: banner
+      title: Banner
+      heading: This is a heading
+      heading: This is a heading
+      heading: This is a heading
