@@ -8,14 +8,20 @@ featured: true
 category: travel
 featured_image: https://source.unsplash.com//DuD5D3lWC3c
 page_blocks:
-  - _id: banner
-    title: banner
-  - _id: column-content
-    title: column-content
+  - _id: text-columns
+    title: text-colums
     heading: 
     column1:
     column2:
     column3:
+  - _id: gallery
+    title: Gallery
+    image1: 
+    image2:
+    image3:
+    image4:
+    image5:
+    image6:
 seo:
   title: First post
   meta-description:

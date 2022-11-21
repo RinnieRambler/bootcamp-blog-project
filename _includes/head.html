@@ -1,4 +1,10 @@
 <head>
+     <!-- Tailwinds -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Style Sheet -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +23,15 @@
     <meta property="og:url" content="{{page.url}}">
     <meta name="twitter:card" content="{{page.seo.meta-description}}">
     <meta name="og:site_name" content="{{site.data.settings.general.site-name}}">
+
+    
+
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
 
     {% if page.seo.hide-from-google == true %}
     <meta name="robots" content="noindex">

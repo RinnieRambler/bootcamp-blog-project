@@ -1,0 +1,7 @@
+<section class="p-5 m-px grid grid-cols-3">
+    {% for item in block.gallery %}
+    <div>
+        <img src="{{item.image_url}}">
+    </div>
+    {% endfor %}
+</section>
