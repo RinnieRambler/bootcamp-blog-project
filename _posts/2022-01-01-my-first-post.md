@@ -22,6 +22,10 @@ page_blocks:
     image4:
     image5:
     image6:
+  - _id: text
+    title: Text 
+    heading: This is a heading
+    text: This is text   
 seo:
   title: First post
   meta-description:
