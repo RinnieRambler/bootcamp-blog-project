@@ -1,15 +1,15 @@
-<section class="p-10 mb-20">
+<section class="p-10 mb-20 tracking-wide ">
     <div class="p-5 text-center"> 
-      <h3 class="pb-5 text-2xl">Featured Posts</h3>
+      <h3 class="pb-5 text-2xl text-center ">Featured Posts</h3>
     </div>
-    <div class="text-center grid gap-8 grid-cols-3">
-      {% for post in site.posts %}
+    <div class="leading-8 grid gap-8 md:grid-cols-3">
+      {% for post in site.posts limit:3 %}
       <a href="{{post.url}}">
         <div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
-        <span class="category">{{post.category}}</span>
-        <h3> {{post.title}} </h3>
-        <span class="author">by {{post.author}}</span> //
-        <span class="date"> {{post.date | date: "%m.%d.%Y" }} </span>
+        <span class="category uppercase text-sm">{{post.category}}</span>
+        <h3 class="text-xl font-semibold"> {{post.title}} </h3>
+        <span class="author text-xs uppercase">by {{post.author}}</span> //
+        <span class="date text-xs"> {{post.date | date: "%m.%d.%Y" }} </span>
         <p>Read More</p>
       </a>
       {% endfor %}  
