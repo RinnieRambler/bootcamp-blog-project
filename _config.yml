@@ -45,4 +45,12 @@ _array_structures:
        video_url: https://www.youtube.com/embed/fUn1w3Vfh6U
        heading: This a a heading
        text: this is text
+    - label: text-and-image
+      icon: article
+      value:
+       _id: text-and-image
+       title: Text and Image
+       text: this is text
+       text-and-image_url: https://source.unsplash.com//qDGsTVSSwxI
+      
        
