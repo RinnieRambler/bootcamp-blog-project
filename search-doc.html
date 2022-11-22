@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-<section class="p-8">
+<section class="p-8 bg-black">
 
     <!-- HTML elements for search -->
-    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <input type="text" id="search-input" class="p-2" placeholder="Search blog posts..">
     <div id="results-container" class="grid grid-cols-3"></div>
 
 <!-- or without installing anything -->
@@ -16,7 +16,7 @@ layout: default
   resultsContainer: document.getElementById('results-container'),
   noResultsText: 'No results found',
   json: '/search.json',
-  searchResultTemplate: '<div class="block my-2 odd:bg-orange-100 even:bg-orange-300 hover:bg-orange-400 px-10 py-1 uppercase tracking-wide"><a href="{{ site.url }}{url}">{title}</a></div>'
+  searchResultTemplate: '<div class="block my-2 hover:bg-[#898989] text-black bg-[#a2a2a2] px-10 py-1 uppercase tracking-wide text-sm flex items-center"><a href="{{ site.url }}{url}">{title}</a></div>'
 })
     </script>
 
