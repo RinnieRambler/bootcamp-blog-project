@@ -1,12 +1,12 @@
 ---
 layout: post-layout
 seo:
-  title: second post
+  title: third post
   meta-description:
   meta-keywords:
   featured-image_path:
   hide-from-google: false
-title: My Second Post
+title: My Third Post
 description: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -15,7 +15,7 @@ description: >-
   eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
   in culpa qui officia deserunt mollit anim id est laborum.
 author: Corinne Laing
-date: 2022-02-02 00:00:00
+date: 2022-03-03 00:00:00
 featured: true
 category: travel
 featured_image: https://source.unsplash.com/M0AWNxnLaMw

@@ -9,7 +9,7 @@ description: >-
   eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
   in culpa qui officia deserunt mollit anim id est laborum.
 author: Corinne Laing
-date: 2022-01-01 00:00:00
+date: 2022-01-01 00:00:00 
 featured: true
 category: travel
 featured_image: https://source.unsplash.com//DuD5D3lWC3c
@@ -69,11 +69,11 @@ page_blocks:
     title: Gallery
     gallery:
     - image_url: https://source.unsplash.com/8muZ_2cfX4A
-      image_url: https://source.unsplash.com/8muZ_2cfX4A
-      image_url: https://source.unsplash.com/8muZ_2cfX4A
-      image_url: https://source.unsplash.com/8muZ_2cfX4A
-      image_url: https://source.unsplash.com/8muZ_2cfX4A
-      image_url: https://source.unsplash.com/8muZ_2cfX4A
+    - image_url: https://source.unsplash.com/8muZ_2cfX4A
+    - image_url: https://source.unsplash.com/8muZ_2cfX4A
+    - image_url: https://source.unsplash.com/8muZ_2cfX4A
+    - image_url: https://source.unsplash.com/8muZ_2cfX4A
+    - image_url: https://source.unsplash.com/8muZ_2cfX4A
   - _id: text
     title: Text
     heading: This is a heading

@@ -1,6 +1,28 @@
 ---
 layout: default
 ---
+
 {% for block in page.page_blocks %}
     {% include /blocks/{{block._id}}.html %}
 {% endfor %}
+
+<section>
+	<h4> Related Posts </h4>
+	<div>
+
+		{% assign pageCategory = page.categories[0] %}
+		{% assign relevant = site.categories[pageCategory] | where_exp:"post","post.url != page.url" %}
+  		{% for post in relevant limit:3 %}
+
+      		<a href="{{post.url}}">
+        		<div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
+        		<span class="author">by {{post.author}}</span> //
+        		<span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
+        		<h3> {{post.title}} </h3>
+      		</a>
+      		
+  		{% endfor %}
+	</div>
+</section>
+
+{% include social-sharing.html %}
