@@ -1,4 +1,4 @@
-<section class="p-10">
+<section class="p-10 mb-20">
     <div class="p-5 text-center"> 
       <h3 class="pb-5 text-2xl">Featured Posts</h3>
     </div>
@@ -6,9 +6,11 @@
       {% for post in site.posts %}
       <a href="{{post.url}}">
         <div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
-        <span class="author">by {{post.author}}</span> //
-        <span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
+        <span class="category">{{post.category}}</span>
         <h3> {{post.title}} </h3>
+        <span class="author">by {{post.author}}</span> //
+        <span class="date"> {{post.date | date: "%m.%d.%Y" }} </span>
+        <p>Read More</p>
       </a>
       {% endfor %}  
     </div>

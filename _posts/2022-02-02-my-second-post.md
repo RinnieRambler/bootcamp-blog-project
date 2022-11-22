@@ -4,7 +4,7 @@ seo:
   title: second post
   meta-description:
   meta-keywords:
-  featured-image_path:
+  featured-image_path: 
   hide-from-google: false
 title: My Second Post
 description: >-
@@ -18,7 +18,7 @@ author: Corinne Laing
 date: 2022-02-02 00:00:00
 featured: true
 category: travel
-featured_image: https://source.unsplash.com/M0AWNxnLaMw
+featured_image: https://source.unsplash.com/Oj3ieqbZ2l4
 page_blocks:
   - _id: banner
     title: Banner

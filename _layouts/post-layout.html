@@ -6,15 +6,15 @@ layout: default
     {% include /blocks/{{block._id}}.html %}
 {% endfor %}
 
-<section>
+<section class="p-8 text-center">
 	<h4> Related Posts </h4>
-	<div class="grid gap-2 grid-cols-3">
+	<div class="border grid gap-2 grid-cols-3">
 
 		{% assign pageCategory = page.categories[0] %}
 		{% assign relevant = site.categories[pageCategory] | where_exp:"post","post.url != page.url" %}
   		{% for post in relevant limit:3 %}
 
-      		<a href="{{post.url}}">
+      		<a class="border" href="{{post.url}}">
         		<div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
         		<span class="author">by {{post.author}}</span> //
         		<span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
