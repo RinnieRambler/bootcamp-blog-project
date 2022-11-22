@@ -1,0 +1,15 @@
+<section>
+    <div class="text-center"> 
+      <h3>Featured Posts</h3>
+    </div>
+    <div class="text-center grid gap-2 grid-cols-3">
+      {% for post in site.posts %}
+      <a href="{{post.url}}">
+        <div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
+        <span class="author">by {{post.author}}</span> //
+        <span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
+        <h3> {{post.title}} </h3>
+      </a>
+      {% endfor %}  
+    </div>
+  </section>
