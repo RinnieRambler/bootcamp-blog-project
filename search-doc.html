@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="p-8">
+
+    <!-- HTML elements for search -->
+    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <div id="results-container" class="grid grid-cols-3"></div>
+
+<!-- or without installing anything -->
+    <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+    
+    <script>
+        var sjs = SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  noResultsText: 'No results found',
+  json: '/search.json',
+  searchResultTemplate: '<div class="block my-2 odd:bg-orange-100 even:bg-orange-300 hover:bg-orange-400 px-10 py-1 uppercase tracking-wide"><a href="{{ site.url }}{url}">{title}</a></div>'
+})
+    </script>
+
+</section>

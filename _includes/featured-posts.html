@@ -1,8 +1,8 @@
-<section>
-    <div class="text-center"> 
-      <h3>Featured Posts</h3>
+<section class="p-10">
+    <div class="p-5 text-center"> 
+      <h3 class="pb-5 text-2xl">Featured Posts</h3>
     </div>
-    <div class="text-center grid gap-2 grid-cols-3">
+    <div class="text-center grid gap-8 grid-cols-3">
       {% for post in site.posts %}
       <a href="{{post.url}}">
         <div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
