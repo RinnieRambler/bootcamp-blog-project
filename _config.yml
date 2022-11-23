@@ -64,9 +64,6 @@ _array_structures:
        title: Text and Image
        text: this is text
        text-and-image_url: https://source.unsplash.com//qDGsTVSSwxI
-    - _id: cta
-       title: Call to Action
-       text: this is text
-       button-text: This is button text
+    
       
        
