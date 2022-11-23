@@ -1,16 +1,16 @@
 <section class="p-10 mb-20 tracking-wide ">
-    <div class="p-5 text-center"> 
+    <div class="p-5"> 
       <h3 class="pb-5 text-2xl text-center ">Featured Posts</h3>
     </div>
     <div class="leading-8 grid gap-8 md:grid-cols-3">
       {% for post in site.posts limit:3 %}
-      <a href="{{post.url}}">
+      <a class="border hover:[#101016] hover:opacity-80" href="{{post.url}}">
         <div class="bg-image bg-center h-72 bg-no-repeat" style="background-image:url({{post.featured_image}})"> </div>
-        <span class="category uppercase text-sm">{{post.category}}</span>
-        <h3 class="text-xl font-semibold"> {{post.title}} </h3>
-        <span class="author text-xs uppercase">by {{post.author}}</span> //
-        <span class="date text-xs"> {{post.date | date: "%m.%d.%Y" }} </span>
-        <p>Read More</p>
+        <span class="category uppercase text-sm pl-2">{{post.category}}</span>
+        <h3 class="text-xl font-semibold pl-2"> {{post.title}} </h3>
+        <span class="author text-xs uppercase pl-2">by {{post.author}}</span> //
+        <span class="date text-xs pl-2"> {{post.date | date: "%m.%d.%Y" }} </span>
+        <p class="pl-2">Read More</p>
       </a>
       {% endfor %}  
     </div>
