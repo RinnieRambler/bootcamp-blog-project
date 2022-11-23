@@ -12,22 +12,22 @@
 /* Custom CSS */
 
 .playfair {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
 }
 
 .sens {
-    font-family: 'Sen', sans-serif;
+    font-family: "Sen", sans-serif;
 }
 
 body,
 * {
-    font-family: 'Sen', sans-serif;
+    font-family: "Sen", sans-serif;
 }
 
 h3 {
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
