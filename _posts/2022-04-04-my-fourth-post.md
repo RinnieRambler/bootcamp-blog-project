@@ -28,7 +28,7 @@ page_blocks:
     image: https://source.unsplash.com///DuD5D3lWC3c
   - _id: text
     title: Text
-    heading: This is a ggggg
+    heading: This is a heading
     text: >-
       At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
