@@ -10,7 +10,19 @@
 
 /* Custom CSS */
 
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.sens {
+    font-family: 'Sen', sans-serif;
+}
+
 body,
 * {
-    
+    font-family: 'Sen', sans-serif;
+}
+
+h1,h2,h3 {
+    font-family: 'Playfair Display', serif;
 }
