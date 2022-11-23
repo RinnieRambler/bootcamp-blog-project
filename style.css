@@ -23,6 +23,10 @@ body,
     font-family: 'Sen', sans-serif;
 }
 
-h1,h2,h3 {
+h3 {
     font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

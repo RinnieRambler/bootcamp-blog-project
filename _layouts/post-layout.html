@@ -14,7 +14,7 @@ layout: default
 		{% assign relevant = site.categories[pageCategory] | where_exp:"post","post.url != page.url" %}
   		{% for post in relevant limit:3 %}
 
-      		<a class="border" href="{{post.url}}">
+      		<a class="border hover:[#101016] hover:opacity-80" href="{{post.url}}">
         		<div class="bg-image h-72 bg-no-repeat bg-center" style="background-image:url({{post.featured_image}})"> </div>
         		<span class="author">by {{post.author}}</span> //
         		<span class="author"> {{post.date | date: "%m.%d.%Y" }} </span>
