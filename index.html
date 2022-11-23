@@ -10,11 +10,14 @@ seo:
 
 
 ---
-{% include featured-posts.html %}
 
 <!--- banner with overlay text onto image-->
-<div>
-  <img class="object-cover w-full h-[50vh]" src="https://source.unsplash.com/T2PH-iis0JE" class="">
-    
-  </p>
+<div class="relative h-[30]">
+  <img class="object-cover bg-blend-overlay w-full h-[35vh]" src="https://source.unsplash.com/T2PH-iis0JE" alt="">
+  <div class="absolute bottom-0 left-0 right-0 top-0 bg-[#7c7c7c] opacity-50">
+    <h2 class="text-[#101016] text-xl inline-block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 "> This is something semi important</h2>
+  </div>
 </div>
+
+<!--- Featured posts loop (limit 3)-->
+{% include featured-posts.html %}
