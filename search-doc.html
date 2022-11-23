@@ -14,7 +14,7 @@ layout: default
         var sjs = SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  noResultsText: '<div class="text-white">No results found</div>',
+  noResultsText: '<div class="text-white p-2">No results found</div>',
   json: '/search.json',
   searchResultTemplate: '<div class="block my-2 hover:bg-[#898989] text-black bg-[#a2a2a2] px-10 py-1 uppercase tracking-wide text-sm flex items-center"><a href="{{ site.url }}{url}">{title}</a></div>'
 })
