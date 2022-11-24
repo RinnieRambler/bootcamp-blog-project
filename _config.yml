@@ -64,6 +64,14 @@ _array_structures:
        title: Text and Image
        text: this is text
        text-and-image_url: https://source.unsplash.com//qDGsTVSSwxI
-    
+    - label: sticky-image-text
+      icon: article
+      value:
+       _id: sticky-image-text
+       title: Sticky Image Text
+       heading: This a a heading
+       text: this is text
+       text: this is text
+       sticky-image-text_url: https://source.unsplash.com//qDGsTVSSwxI
       
        

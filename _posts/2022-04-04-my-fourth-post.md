@@ -56,11 +56,22 @@ page_blocks:
   - _id: text-and-image
     title: Text and Image
     text: >-
-      At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+      dan was here At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
       praesentium voluptatum deleniti atque corrupti quos dolores et quas
       molestias excepturi sint occaecati cupiditate non provident, similique
       sunt in culpa qui officia deserunt mollitia animi, id est laborum et
       dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
     text-and-image_url: https://source.unsplash.com//qDGsTVSSwxI
+    flipped: true
+  - _id: text-and-image
+    title: Text and Image
+    text: >-
+      dan was here At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+      praesentium voluptatum deleniti atque corrupti quos dolores et quas
+      molestias excepturi sint occaecati cupiditate non provident, similique
+      sunt in culpa qui officia deserunt mollitia animi, id est laborum et
+      dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+    text-and-image_url: https://source.unsplash.com//qDGsTVSSwxI
+    flipped: false
 ---
 <section>{{page.title}}</section>
